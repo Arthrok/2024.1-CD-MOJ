@@ -1,0 +1,198 @@
+repo_url: https://github.com/Interacao-Humano-Computador/2024.1-Grupo01
+repo_name: 2024.1-Grupo01
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:material.extensions.emoji.twemoji
+  #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+site_name: Grupo 01
+
+
+nav:
+  - Inicio: 
+      - Inicio: index.md
+      - Licença: licenca.md
+  - Apresentações:
+      - Apresentação 1: apresentacao/apresentacao1.md
+      - Apresentação 2: apresentacao/apresentacao2.md
+      - Apresentação 3: apresentacao/apresentacao3.md
+      - Apresentação 4: apresentacao/apresentacao4.md
+      - Apresentação 5: apresentacao/apresentacao5.md
+      - Apresentação 6.1: apresentacao/apresentacao6-1.md
+      - Apresentação 6.2: apresentacao/apresentacao6-2.md
+      - Apresentação 7: apresentacao/apresentacao7.md
+      - Apresentação 8: apresentacao/apresentacao8.md
+  - Reuniões:
+      - Reunião 1: reuniao/reuniao01.md
+      - Reunião 2: reuniao/reuniao02.md
+      - Reunião 3: reuniao/reuniao03.md
+      - Reunião 4: reuniao/reuniao04.md
+      - Reunião 5: reuniao/reuniao05.md
+  - Planejamento:
+    - Cronograma: planejamento/cronograma.md
+    - Heatmap: planejamento/heatmap.md
+    - Ferramentas: planejamento/ferramentas.md
+    - Metodologia: planejamento/metodologia.md
+    - Processos de Design: planejamento/processosDesign.md
+    - Sites Avaliados: planejamento/sitesAvaliados.md
+    - Site Escolhido: planejamento/siteEscolhido.md
+  - Analise de Requisitos:
+    - Aspectos Éticos: analise-de-requisitos/aspectosEticos.md
+    - Análise de Tarefas:
+      - Análise Hierárquica de Tarefas: analise-de-requisitos/analise-de-tarefas/analiseHierarquicaTarefa.md
+      - GOMS: analise-de-requisitos/analise-de-tarefas/GOMS.md
+    - Perfil de Usuário: analise-de-requisitos/perfildeUsuario.md
+    - Personas: analise-de-requisitos/personas.md
+    - Guia de Estilo: analise-de-requisitos/guiaEstilo.md
+    - Cenários: analise-de-requisitos/cenario.md
+    - Princípios Gerais: analise-de-requisitos/principios.md
+    - Metas de Usabilidade: analise-de-requisitos/metasDeUsabilidade.md
+    - Caracteristicas da plataforma: analise-de-requisitos/caracteristicasPlataforma.md
+  - Design, Avaliação e Desenvolvimento:
+    - Nível 1:
+      - Análise de Tarefas: 
+        - Planejamento da Avaliação: design-avaliacao-desenvolvimento/nivel1/analiseTarefas/planejamentoAvaliacao.md
+        - Planejamento do Relato dos Resultados da Avaliação: design-avaliacao-desenvolvimento/nivel1/analiseTarefas/planejamentoRelatoResultadoAnaliseTarefas.md
+        - Relatos dos Resultados: design-avaliacao-desenvolvimento/nivel1/analiseTarefas/relatosResultados.md
+      - Storyboard:
+        - Planejamento da Avaliação: design-avaliacao-desenvolvimento/nivel1/storyboard/planejamentoAvaliacao.md
+        - Storyboards: design-avaliacao-desenvolvimento/nivel1/storyboard/storyboards.md
+        - Planejamento do Relato dos Resultados da Avaliação: design-avaliacao-desenvolvimento/nivel1/storyboard/planejamentoRelatoResultadoStoryboard.md
+        - Relatos dos Resultados: design-avaliacao-desenvolvimento/nivel1/storyboard/relatosResultados.md
+    - Nivel 2:
+      - Protótipo de Papel:
+        - Planejamento da Avaliação do Protótipo de Papel: design-avaliacao-desenvolvimento/nivel2/prototipoPapel/planejamentoAvaliacao.md
+        - Planejamento do Relato dos Resultados da Avaliação: design-avaliacao-desenvolvimento/nivel2/prototipoPapel/planejamentoResultados.md
+        - Relatos dos Resultados: design-avaliacao-desenvolvimento/nivel2/prototipoPapel/relatoResultado.md
+    - Nivel 3:
+      - Protótipo de Alta Fidelidade:
+        - Planejamento da Avaliação do Protótipo de Alta Fidelidade: design-avaliacao-desenvolvimento/nivel3/planejAvaliacao.md
+        - Planejamento do Relato dos Resultados do Protótipo de Alta Fidelidade: design-avaliacao-desenvolvimento/nivel3/planejRelato.md
+        - Relato dos Resultados do Protótipo de Alta Fidelidade: design-avaliacao-desenvolvimento/nivel3/relatoResultados.md
+  - Verificação Grupo 02: 
+    - Etapa 1:
+      - Planejamento da Verificação da Etapa 1: verificacao/etapa1/planejamento.md
+      - Cronograma: verificacao/etapa1/cronograma.md
+      - Ferramentas: verificacao/etapa1/ferramentas.md
+      - Processo de Design: verificacao/etapa1/processoDesign.md
+      - Site Escolhido: verificacao/etapa1/siteEscolhido.md
+    - Etapa 2:
+      - Planejamento da Verificação da Etapa 2: verificacao/etapa2/planejamentoVerificacaoEtapa2.md
+      - Perfil de Usuário: verificacao/etapa2/perfil-usuario.md
+      - Aspectos Éticos de Pesquisas Envolvendo Pessoas: verificacao/etapa2/aspectosEticos.md
+      - Personas: verificacao/etapa2/personas.md
+      - Análise de Tarefas: verificacao/etapa2/analise-tarefa.md
+    - Etapa 3:
+      - Planejamento da Verificação da Etapa 3: verificacao/etapa3/planejamento.md
+      - Princípios Gerais do projeto: verificacao/etapa3/principiosGerais.md
+      - Metas de Usabilidade: verificacao/etapa3/metaUsabilidade.md
+      - Guia de Estilo: verificacao/etapa3/guiaEstilo.md
+    - Etapa 4:
+      - Planejamento da Verificação da Etapa 4: verificacao/etapa4/planejamento.md
+      - Planejamento da Avaliação da Análise de Tarefas: verificacao/etapa4/planejamentoAvaliacaoAnalise.md
+      - Planejamento do Relato dos Resultados da Análise de Tarefa: verificacao/etapa4/planejamentoRelatoAnalise.md
+      - Planejamento da Avaliação do Storyboard: verificacao/etapa4/planejamentoStoryboard.md
+    - Etapa 5:
+      - Planejamento da Verificação da Etapa 5: verificacao/etapa5/planejamento.md
+      - Relato dos Resultados da Avaliação da Análise de Tarefas: verificacao/etapa5/relatoAnaliseTaferas.md
+      - Relato dos Resultados do Storyboard: verificacao/etapa5/relatoStoryboard.md
+      - Planejamento da Avaliação do Protótipo de Papel: verificacao/etapa5/planejamentoAvaliacaoPapel.md
+      - Planejamento do Relato do Protótipo de Papel: verificacao/etapa5/planejamentoRelatoPapel.md
+    - Etapa 7:
+      - Planejamento da Verificação da Etapa 7: verificacao/etapa7/planejamento.md
+      - Relato dos Resultados do Protótipo de Papel: verificacao/etapa7/relatoPrototipoPapel.md
+      - Planejamento da Avaliação do Protótipo de Alta Fidelidade: verificacao/etapa7/planejamentoPrototipoAltaFidelidade.md
+      - Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade: verificacao/etapa7/planejamentoResultadoPrototipoAltaFidelidade.md
+  - Verificação Interna: 
+    - Etapa 2: 
+      - Planejamento da Verificação da Etapa 2: verificacaoG1/etapa2/planejamentoVerificacaoEtapa2.md
+      - Análise de Tarefas : verificacaoG1/etapa2/analiseTarefas.md
+      - Aspectos Éticos: verificacaoG1/etapa2/aspectosEticos.md
+      - Perfil do Usuário: verificacaoG1/etapa2/perfil-usuario.md
+      - Personas : verificacaoG1/etapa2/personas.md
+    - Etapa 3:
+      - Planejamento da Verificação da Etapa 3: verificacaoG1/etapa3/planejamento.md
+      - Metas de Usabilidade: verificacaoG1/etapa3/metaUsabilidade.md
+      - Princípios Gerais do projeto: verificacaoG1/etapa3/principiosGerais.md
+      - Guia de Estilo: verificacaoG1/etapa3/guiaEstilo.md
+    - Etapa 4:
+      - Planejamento da Verificação da Etapa 4: verificacaoG1/etapa4/planejamento.md
+      - Planejamento da Avaliação da Análise de Tarefas: verificacaoG1/etapa4/planejamentoAvaliacaoAnalise.md
+      - Planejamento da Avaliação do Storyboard: verificacaoG1/etapa4/planejamentoStoryboard.md
+      - Planejamento do Relato dos Resultados da Análise de Tarefa: verificacaoG1/etapa4/planejamentoRelatoAnalise.md
+      - Planejamento do Relato dos Resultados do Storyboard: verificacaoG1/etapa4/planejRelatStoryBoard.md
+    - Etapa 5: 
+      - Planejamento da Verificação da Etapa 5: verificacaoG1/etapa5/planejamento.md
+      - Relato dos Resultados da Avaliação da Análise de Tarefas: verificacaoG1/etapa5/relatoAnaliseTarefas.md
+      - Relato dos Resultados do Storyboard: verificacaoG1/etapa5/relatoStoryboardGrupo.md
+      - Planejamento da Avaliação do Protótipo de Papel: verificacaoG1/etapa5/planejamentoAvaliacaoPapel.md
+      - Planejamento do Relato do Protótipo de Papel: verificacaoG1/etapa5/planejamentoRelatoPapel.md
+    - Etapa 7:
+      - Planejamento da Verificação da Etapa 7: verificacaoG1/etapa7/planejamento.md
+      - Relato dos resultados do Protótipo de Papel: verificacaoG1/etapa7/relatoProtPapel.md
+      - Planejamento da Avaliação do Protótipo de Alta Fidelidade: verificacaoG1/etapa7/planejAltaFidelidade.md
+      - Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade: verificacaoG1/etapa7/planejamentoResultadoPrototipoAltaFidelidade.md
+  - Entrega Final:
+    - Site Escolhido: entregaFinal/siteEscolhido.md
+    - Planejamento dos Recursos e das Entregas: entregaFinal/planejRecEnt.md
+    - Artefatos Criados: entregaFinal/artefatosCriados.md
+    - Sintese das Verificações: entregaFinal/sinteseVerificacao.md
+    - Ciclo de Vida Utilizado: entregaFinal/cicloVida.md
+    - Ferramentas Utilizadas: entregaFinal/ferramentas.md
+    - Síntese das Apresentações: entregaFinal/apresentacoes.md
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+  palette:
+
+    # Palette toggle for automatic mode
+   # - media: "(prefers-color-scheme)"
+     # toggle:
+     #   icon: material/brightness-auto
+     #   name: Mudar para o modo claro
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: claro
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para o modo escuro
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para a preferência do sistema
+
+  language: pt-BR
+  favicon: assets/logoMoj.png
+  logo: assets/logoMoj.png
+
+extra:
+  version:
+    provider: mike
+
+extra_css: [stylesheets/style.css]
